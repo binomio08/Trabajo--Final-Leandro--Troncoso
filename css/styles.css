@@ -720,14 +720,14 @@ template {
 
 .blog__title {
   text-align: center;
-  color: #F66B0E;
+  color: #2982B9;
   text-transform: uppercase;
   font-size: 2.4rem;
 }
 
 .blog__subtitle {
   text-align: center;
-  color: #EFEFEF;
+  color: #F66B0E;
   font-size: 1.3rem;
 }
 
@@ -816,11 +816,12 @@ template {
   padding: 20px;
   gap: 10px;
   text-align: center;
-  font-family: "Quicksand", sans-serif;
-  color: #F66B0E;
+  font-family: "Playfair Display", serif;
+  color: #2982B9;
 }
 
-.contenedorSkills .img, .contenedorSkills h1 {
+.contenedorSkills .img,
+.contenedorSkills h1 {
   border: 2px solid black;
   border-radius: 7px;
 }
@@ -835,30 +836,40 @@ template {
   transition: all 0.5s;
 }
 
-.img1, .img6, .img5, .img4, .img3, .img2 {
-  background-image: url(../img/react.png);
+.img1 {
+  background-image: url(../Img/react.png);
   background-size: cover;
   background-position: center;
 }
 
 .img2 {
-  background-image: url(../img/java.png);
+  background-image: url(../Img/java.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .img3 {
-  background-image: url(../img/css.png);
+  background-image: url(../Img/css.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .img4 {
-  background-image: url(../img/git.png);
+  background-image: url(../Img/git.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .img5 {
-  background-image: url(../img/html.png);
+  background-image: url(../Img/html.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .img6 {
-  background-image: url(../img/bootstrap.png);
+  background-image: url(../Img/bootstrap.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .audio {
@@ -879,16 +890,16 @@ template {
   .contenedorSkills h1 {
     grid-column: 2/5;
     grid-row: 1/2;
-    background-image: url(../img/banner.jpg);
+    background-image: url(../Img/banner.jpg);
     background-size: cover;
     background-position: center;
     font-size: 3rem;
   }
 
-  .img1, .img2, .img3, .img4, .img5, .img6 {
+  .img1 {
     grid-column: 1/2;
     grid-row: 1/3;
-    background-image: url(../img/java.png);
+    background-image: url(../Img/java.png);
     background-size: cover;
     background-position: center;
   }
@@ -896,7 +907,7 @@ template {
   .img2 {
     grid-column: 2/3;
     grid-row: 2/4;
-    background-image: url(../img/react.png);
+    background-image: url(../Img/react.png);
     background-size: cover;
     background-position: center;
   }
@@ -904,7 +915,7 @@ template {
   .img3 {
     grid-column: 4/5;
     grid-row: 2/4;
-    background-image: url(../img/css.png);
+    background-image: url(../Img/css.png);
     background-size: cover;
     background-position: center;
   }
@@ -912,7 +923,7 @@ template {
   .img4 {
     grid-column: 1/2;
     grid-row: 3/5;
-    background-image: url(../img/git.png);
+    background-image: url(../Img/git.png);
     background-size: cover;
     background-position: center;
   }
@@ -920,7 +931,7 @@ template {
   .img5 {
     grid-column: 3/4;
     grid-row: 2/4;
-    background-image: url(../img/html.png);
+    background-image: url(../Img/html.png);
     background-size: cover;
     background-position: center;
   }
@@ -928,11 +939,12 @@ template {
   .img6 {
     grid-column: 2/5;
     grid-row: 4/5;
-    background-image: url(../img/bootstrap.png);
+    background-image: url(../Img/bootstrap.png);
     background-size: cover;
     background-position: center;
   }
 }
+/* --------------------End Skills------------------------- */
 #formulario {
   background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
   margin: 0;
@@ -959,9 +971,10 @@ template {
   text-align: center;
 }
 
-.form__tittle {
+.form__title {
   font-size: 2.4rem;
   margin-bottom: 0.5em;
+  color: #2982B9;
 }
 
 .form__subtitle {
