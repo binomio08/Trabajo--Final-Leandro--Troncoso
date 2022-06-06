@@ -28,14 +28,14 @@
     @include animation (scale(1.05), all 0.5s);
 }
 .img1{
-    background-image: url(../img/react.png);
+    background-image: url(../Img/react.png);
     background-size: cover;
     background-position: center;
 
 }
 .img2{
     @extend .img1;
-    background-image: url(../img/java.png);
+    background-image: url(../Img/java.png);
 }
 .img3{
     @extend .img1;
