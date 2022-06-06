@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- META TAG -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- LINKL ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Leandro Blog</title>
+
+</head>
+
+<body id="blog">
+
+    <header class="header__blog">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">LT</span> Desing Web</a>
+                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/about.html">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/skill.html">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="blog">
+        <h1 class="blog__title animate__animated animate__backInDown"> Blog</h1>
+        <h2 class="blog__subtitle animate__animated animate__backInLeft">Recent Post</h2>
+        <section class="blog__container">
+            <!--------- Box HTMl 1 --------->
+            <div class="blog__box animate__animated animate__backInLeft">
+                <div class="blog__img">
+                    <img src="../Img/web-blog.png" alt="impot-web">
+                </div>
+                <!-------- text --------->
+                <div class="blog__text">
+                    <span>04 Junio 2022 / Diseño Web</span>
+                    <h3 class="box__title">La importancia de una página web</h3>
+                    <p class="blog__parrafo">Al tener tu página web eleva tu prestigio, a la vez que permite que tus
+                        clientes aumenten tu nivel de confianza en el producto o servicio que tu ofreces.</p>
+                    <div class="botton">
+                        <a class="blog__botton" href="https://www.ntxpro.net/marketing/una-pagina-web/" target="_blank">
+                            Leer más...</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--------- Box HTMl 2 --------->
+            <div class="blog__box animate__animated animate__backInUp">
+                <div class="blog__img">
+                    <img src="../Img/resp-blog.jpg" alt="responsive-web">
+                </div>
+                <!-------- text --------->
+                <div class="blog__text">
+                    <span>04 Junio 2022 / Diseño Web</span>
+                    <h3 class="box__title">La importancia de un diseño web responsive</h3>
+                    <p class="blog__parrafo">Diseño web responsive es una manera de diseñar un sitio web que hace que
+                        cada elemento sea ajustable según en el tamaño de pantalla.</p>
+                    <div class="botton">
+                        <a class="blog__botton"
+                            href="https://www.internetya.co/la-importancia-de-un-diseno-web-responsive/"
+                            target="_blank">
+                            Leer más...</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--------- Box HTMl 3 --------->
+            <div class="blog__box animate__animated animate__backInRight">
+                <div class="blog__img">
+                    <img src="../Img/cod-blog.png" alt="build-web">
+                </div>
+                <!-------- text --------->
+                <div class="blog__text">
+                    <span>04 Junio 2022 / Diseño Web</span>
+                    <h3 class="box__title">Cómo Planear y crear un sitio web</h3>
+                    <p class="blog__parrafo">El sitio web es el canal más importante de Marketing Digital, por lo que
+                        debe construirse con mucho cuidado y enfocado en lo que la empresa quiere lograr.</p>
+                    <div class="botton">
+                        <a class="blog__botton" href="https://rockcontent.com/es/blog/como-crear-un-sitio-web/"
+                            target="_blank">
+                            Leer más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Inicio Footer -->
+    <footer class="footer">
+
+        <ul class="footer__icon">
+            <li class="footer__social">
+                <a href="https://es-la.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook-square"></i></a></li>
+            <li class="footer__social">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></a></li>
+            <li class="footer__social">
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="footer__social">
+                <a href="https://twitter.com/" target="_blank">
+                    <i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+
+        <ul class="footer__menu">
+            <li class="menu__list"> <a href="../index.html">Home</a></li>
+            <li class="menu__list"> <a href="../Pages/about.html">Sobre Mi</a></li>
+            <li class="menu__list"> <a href="../Pages/skill.html">Habilidades</a></li>
+            <li class="menu__list"> <a href="../Pages/blog.html">Blog</a></li>
+            <li class="menu__list"> <a href="../Pages/contact.html">Contacto</a></li>
+        </ul>
+        <small>&copy; 2022 <b>LT DW</b> - Todos los Dereches Reservados</small>
+    </footer>
+    <!-- Fin del Footer -->
+
+
+    <!-- BOOTSTRAPS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
